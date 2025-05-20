@@ -15,7 +15,7 @@ Links:
 
 GitHub Repository:  https://github.com/VCSTDN2024/imad5112-assignment-2-ST10469971.git 
 
-YouTube video: 
+YouTube video: https://youtu.be/nB9WtpB76sw
 
 
 
@@ -119,7 +119,7 @@ I uploaded these build artifacts to GitHub for easy access. The workflow ensures
  
 Video Demo  
 
-LINK!!! 
+[LINK!!! ](https://youtu.be/nB9WtpB76sw)
 
 Challenges and Learnings   
 
