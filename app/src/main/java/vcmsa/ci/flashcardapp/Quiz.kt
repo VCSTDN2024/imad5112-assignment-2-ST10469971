@@ -75,11 +75,11 @@ class Quiz : AppCompatActivity() {
 
         if (userAnswer == correctAnswer) {
             feedbackTextView.text = "Correct!"
-            feedbackTextView.setTextColor(Color.GREEN)
+            feedbackTextView.setTextColor(Color.GREEN)  //Set green for correct choices
             score++
         } else {
             feedbackTextView.text = "Incorrect"
-            feedbackTextView.setTextColor(Color.RED)
+            feedbackTextView.setTextColor(Color.RED)  //Set red for incorrect choices
         }
 
         trueButton.isEnabled = false

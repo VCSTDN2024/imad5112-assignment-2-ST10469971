@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Quiz"
+    android:background="@drawable/trivia"
     android:padding="16dp">
 
     <TextView
@@ -14,6 +15,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Question will appear here"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textAlignment="center"
         app:layout_constraintTop_toTopOf="parent"

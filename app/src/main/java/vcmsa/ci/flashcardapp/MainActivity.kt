@@ -14,22 +14,20 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-            //Initialize UI elements
             val welcomeMessage = findViewById<TextView>(R.id.welcome_message)
             val appDescription = findViewById<TextView>(R.id.app_description)
             val startButton = findViewById<Button>(R.id.start_button)
             val exitButton = findViewById<Button>(R.id.exit_button)
 
-            //Set welcome message and app description
+            //Set a welcome message along with an app description
             welcomeMessage.text = "Welcome to the True/False Quiz!"
             appDescription.text = "Test your knowledge with these fun flashcards"
 
-            //Set click Listener for the Start Button
+            //Set the setOnClickListener for the Start Button
             startButton.setOnClickListener {
                 //Start the QuizActivity
                 val intent = Intent(this, Quiz::class.java)
                 startActivity(intent)
-                //startActivity(Intent(this, Quiz::class.java))
             }
 
             exitButton.setOnClickListener {

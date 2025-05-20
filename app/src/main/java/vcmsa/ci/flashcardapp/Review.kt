@@ -19,8 +19,6 @@ class Review : AppCompatActivity() {
             val reviewTextView = findViewById<TextView>(R.id.review_text_view)
             val restartBtn = findViewById<Button>(R.id.restart_button)
             val exitBtn = findViewById<Button>(R.id.exit_button)
-            val scoreTextView = findViewById<TextView>(R.id.score_text_view)
-            val feedbackTextView = findViewById<TextView>(R.id.feedback_text_view)
 
             //Get the questions and answers passed from ScoreActivity
             val questions = intent.getStringArrayExtra("questions")
